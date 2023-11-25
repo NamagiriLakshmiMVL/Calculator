@@ -1,0 +1,39 @@
+* {
+    font-size: 40px;
+    background-color: rgb(205, 250, 114);
+    box-sizing: border-box;
+    outline: none;
+}
+.container {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator>div{
+    
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    background-color: white;
+}
+.calculator>div>button{
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.inputDiv>input{
+    border-radius: 30px;
+    background-color: white;
+    margin: 5px;
+    outline: none;
+}
+
